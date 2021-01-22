@@ -1,7 +1,26 @@
+body{
+    text-align: center;
+    
+}
 .board {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    background-color: cadetblue;
+    color: darkblue;
+    margin: auto;
+   
 }
 .restart-game{
     display: none;
+}
+table{
+    table-layout: fixed;
+}
+.dificulty{
+    margin: 10px;
+}
+.flag {
+    height: 30px;
+    width: 30px;
+    background-color: darkgrey;
 }

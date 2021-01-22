@@ -7,14 +7,22 @@
     <title>Mine Sweepear</title>
 </head>
 <body onload="init()">
-    
-<table border="1" cellpading="10" class="board">
-    <tbody>
-      
-    </tbody>
-</table>
+
+    <h1>mines-sweepare</h1>
+    <button class="dificulty" onclick="gameDifeculty('easy')">easy</button>
+    <button class="dificulty" onclick="gameDifeculty('medium')">medium</button>
+    <button class="dificulty" onclick="gameDifeculty('hard')">hard</button>
+    <div class="flag"></div>
+   <div class="right-click" oncontextmenu="return false">
+
+       <table border="1" cellpading="10" class="board">
+           <tbody>
+               
+        </tbody>
+    </table>
+</div> 
 <div class="timer"></div>
-<button class="restart-game" onclick="init()">restart-game</button>
+<button class="restart-game" onclick="restartGame()">restart-game</button>
     <script src="js/utils.js"></script>
     <script src="js/main.js"></script>
 </body>
